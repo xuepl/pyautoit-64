@@ -12,7 +12,7 @@ if sys.version_info[0] == 3:
 else:
     import ctypes
 
-dll = "AutoItX3.dll"
+dll = "AutoItX3_x64.dll"
 bit, _ = platform.architecture()
 
 if bit == "64bit":

@@ -10,23 +10,15 @@ import autoit
 import os
 
 setup(
-    name='PyAutoIt',
-    version=autoit.__version__,
+    name='pyautoit-64',
+    version="1.0.0",
     packages=['autoit'],
     package_data={'': ['lib\\*.dll']},
-    url='https://github.com/jacexh/pyautoit',
+    url='https://github.com/xuepl/pyautoit-64.git',
     license='MIT',
-    author='Jace Xu',
-    author_email='jace@xuh.me',
-    description='Python binding for AutoItX3.dll',
-    classifiers=[
-        "Development Status :: 5 - Production/Stable",
-        "Environment :: Win32 (MS Windows)",
-        "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: Microsoft :: Windows",
-        "Programming Language :: Python",
-        "Topic :: Software Development :: Testing"
-    ],
-    long_description=open(
-        os.path.join(os.path.dirname(__file__), "README.rst"), 'r').read())
+    author='xuepl',
+    author_email='xuepl@guoyasoft.com',
+    description='Python binding for AutoItX3.dll 支持64位dll',
+    platforms="python"
+)
+
