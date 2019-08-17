@@ -10,7 +10,7 @@ import autoit
 import os
 
 setup(
-    name='pyautoit-64',
+    name='pyautoit-win64',
     version="1.0.0",
     packages=['autoit'],
     package_data={'': ['lib\\*.dll']},
